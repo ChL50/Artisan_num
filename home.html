@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- liens CSS et JS ---->
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="/css/mediaqueries.css">
+    <script src="scripts/js/menu.js" defer></script>
+    <!------------------------->
+
+    <title>Artisans numériques</title>
+</head>
+<body>
+    <!------- menu clickable ----------->
+    <div id="sidemenu" class="nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this)">&times;</a>
+            <a href="#">Déconnexion</a>
+            <a href="#">Espace membre</a>
+            <a href="#">à propos</a>
+            <a href="#">Contact</a>
+            <a href="#">Devis</a>
+            <a href="#">CGV / CGU</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">FAQ</a>
+            <a href="#">Espace client</a>
+            <a href="#">Modifier mon compte</a>
+            <a href="#">Assistance technique</a>
+            <a href="#">Contact</a>
+    </div>
+    <!--------------------------------->
+
+    <section>
+        <header>
+            <!--------- header taille mobile ----------->>
+            <div class="sdisplay">
+                <span style="font-size:40px;" onclick="openNav(this)">
+                    <div class="container">X</div>
+                </span>
+                <div class="blog">BLOG</div>
+                <div class="container-b">X</div>
+            </div>
+            <!-------- header taille pc -------->>
+            <div class="sizedisplay" style="display:none;">
+                <div>à propos</div>
+                <div>devis</div>
+                <div>blog</div>
+                <div>inscription</div>
+                <div>connexion</div>
+                <div>déconnexion</div>
+            </div>
+        </header>
+    </section>
+    <section id="main">
+        <div class="text-container">
+            <h1>Artisans-Numériques.com</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor libero veniam vero doloribus necessitatibus officiis harum voluptatem! Tenetur accusantium expedita, eum sequi recusandae adipisci, quis iste.</p>
+            <p>Choisissez l'activité qui vous correspondet découvrez des projets dans votre domaine...</p>
+        </div> <br>
+        <div class="grid-container">
+            <div class="item1"><a href="pages/centres_forma.html">centres de formations outils pédagogiques</a></div>
+            <div class="item2"><a href="#">collectivités & associations</a></div>
+            <div class="item3"><a href="#">commerces & producteurs</a></div>
+            <div class="item4"><a href="#">créateurs designers & architectes</a></div>
+            <div class="item5"><a href="#">organisateurs d'évenements</a></div>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------- -->
+    <!-- 
+        test: -->
+        <br><br><br><br>
+        <a href="pages/devis.html">page devis</a><br>
+        <a href="pages/centres_forma.html">page centres de forma</a><br>
+        <a href="pages/espacemembre.html">page espace membre</a>
+    <!-- ---------------------------------------- -->
+</body>
+</html>

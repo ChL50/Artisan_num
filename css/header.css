@@ -1,0 +1,25 @@
+header{
+    background-color: rgb(255, 255, 255);
+    height: 115px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 3%;
+} 
+.container-b{
+    display: inline-block;
+    position: absolute;
+    left: 335px;
+    font-size: 40px;
+}
+.blog{
+    display: inline-block;
+    margin-left: 15%;
+    font-size: 20px;
+    color: green;
+}

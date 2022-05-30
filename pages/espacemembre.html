@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------- liens CSS et JS ----------->
+    <link rel="stylesheet" href="/css/centres_de_forma.css">
+    <link rel="stylesheet" href="/test.css">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/espacemembre.css">
+    <script src="/scripts/js/menu.js"></script>
+    <!------------------------------------>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="sidemenu" class="nav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav(this)">&times;</a>
+            <a href="#">Déconnexion</a>
+            <a href="#">Espace membre</a>
+            <a href="#">à propos</a>
+            <a href="#">Contact</a>
+            <a href="#">Devis</a>
+            <a href="#">CGV / CGU</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">FAQ</a>
+            <a href="#">Espace client</a>
+            <a href="#">Modifier mon compte</a>
+            <a href="#">Assistance technique</a>
+            <a href="#">Contact</a>
+    </div>
+    <section>
+        <header>
+            <span style="font-size:40px;" onclick="openNav(this)">
+                <div class="container">X</div>
+            </span>
+            <div class="blog">BLOG</div>
+            <div class="container-b">X</div>
+        </header>
+    </section>
+    <div class="title">
+        <h1>ESPACE MEMBRE</h1>
+    </div>
+    <section id="main">  
+        <div>
+            <h4>Dans cet espace vous pouvez modifier vos coordonnées, abonnements aux lettres ou effectuer une demande de suppression.</h4>
+<br>
+        <!--------------- formulaire de contact ---------------------->
+            <form action="/anypage.php">
+                <label for="">Vos informations de contact</label> <br>
+                <label for="">Numero de SIRET</label><br><br>
+                <input type="text" style="width: 250px;"> <br><br>
+                <label for="">Nom Entreprise</label><br>
+                <input type="text" style="width: 250px;"> <br><br>
+                <label for="">Service / poste</label><br>
+                <input type="text" style="width: 250px;"> <br><br>
+                <label for="">¨Prénom</label><br>
+                <input type="text" style="width: 250px;"> <br><br>
+                <label for="">Nom</label><br>
+                <input type="text" style="width: 250px;"> <br><br>
+                <label for="">Email</label><br>
+                <input type="text" style="width: 250px;"> <br><br>
+                <label for="">Telephone</label><br>
+                <input type="text" style="width: 250px;"> <br> <br>
+
+                <input type="checkbox" id="tocheck">
+                <label for="">être rappelé</label> <br> <br>
+                <p>Veuillez lire et accepter le CGU* ci-dessous</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+
+                <input type="checkbox" id="tocheck">
+                <label for="">J'accepte les CGU* ci-dessous</label> <br>
+
+                <button>MODIFIER MES INFOS</button> <br>
+                <p>Centres d'interets (Blog)</p>
+
+                <input type="checkbox">
+                <label for="">Formation</label> <br>
+                <input type="checkbox">
+                <label for="">Associatif</label> <br>
+                <input type="checkbox">
+                <label for="">Commerces</label> <br>
+                <input type="checkbox">
+                <label for="">Creation</label> <br>
+                <input type="checkbox">
+                <label for="">Evenements</label> <br><br><br>
+
+                <p>Recevoir la Lettre par email</p>
+                <input type="checkbox">
+                <label for="">Newsletter Formation</label> <br>
+                <input type="checkbox">
+                <label for="">Newsletter Associatif</label> <br>
+                <input type="checkbox">
+                <label for="">Newsletter Commerces</label> <br>
+                <input type="checkbox">
+                <label for="">Newsletter Creation</label> <br>
+                <input type="checkbox">
+                <label for="">Newsletter Evenements</label> <br><br>
+
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <input type="checkbox">
+                <label for="">J'accepte les CGU* ci-dessus</label><br><br><br>
+                <a href="" style="border: white;">Comment supprimer mon espace membre?</a>
+            </form><br>
+            <button>CREER MON ESPACE MEMBRE</button>
+        </div>
+    </section>
+    <section></section>
+
+
+
+        <!-- ---------------------------------------- -->
+    <!-- 
+        test: -->
+        <br><br><br><br>
+        <a href="/pages/devis.html">page devis</a><br>
+        <a href="/pages/centres_forma.html">page centres de forma</a><br>
+        <a href="/home.html">page home</a>
+    <!-- ---------------------------------------- -->
+</body>
+</html>

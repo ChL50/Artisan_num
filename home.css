@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  background-color: rgb(39, 73, 51);
+}
+
+#main{
+  text-align: center;
+  color: white;
+}
+#main a{
+  display: inline-block;
+  background-color: #ffffff;
+  color: rgb(4, 4, 172);
+  font-weight: 500;
+  border: solid 3px rgb(8, 180, 192);
+  text-decoration: none;
+  padding: 15px 32px;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.text-container{
+  padding: 0 50px;
+}
+
+
+
+.item1 { grid-area: first; }
+.item2 { grid-area: second; }
+.item3 { grid-area: third; }
+.item4 { grid-area: fourth; }
+.item5 { grid-area: fifth; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'first first first'
+    'second second second'
+    'third third third'
+    'fourth fourth fourth'
+    'fifth fifth fifth';
+  gap: 1em;
+  background-color: rgb(39, 73, 51);
+  padding: 0 50px;
+}
+
+.grid-container > div {
+  background-color: rgb(39, 73, 51);
+  text-align: center;
+  padding: 5px 0;
+  font-size: 1em;
+}
+
+.nav{
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 50px;
+} 
+.nav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #818181;
+  display: block;
+} 
+.nav a:hover{
+  color: #f1f1f1;
+}
+.nav .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
